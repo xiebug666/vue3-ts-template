@@ -1,4 +1,5 @@
 <script setup>
+import Foo from '@/components/Foo.vue';
 import { debounceRef } from './hooks';
 
 const v = debounceRef('');
@@ -6,6 +7,7 @@ const v = debounceRef('');
 
 <template>
   <div>
+    <Foo></Foo>
     <div>{{ v }}</div>
     <input v-model="v" type="text" />
   </div>

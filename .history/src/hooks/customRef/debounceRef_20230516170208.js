@@ -1,2 +1,0 @@
-import { cust}
-export default 

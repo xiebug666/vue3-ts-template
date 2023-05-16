@@ -1,0 +1,3 @@
+function useIntersectionObserver(dom,func){
+  
+}

@@ -1,17 +1,17 @@
-<script setup>
-import Foo from '@/components/Foo.vue';
-import { debounceRef } from './hooks';
-
-const v = debounceRef('');
-</script>
-
 <template>
   <div>
-    <Foo></Foo>
+    <Test></Test>
     <div>{{ v }}</div>
     <input v-model="v" type="text" />
   </div>
 </template>
+
+<script setup>
+import Test from '@/components/Test.vue';
+import { debounceRef } from './hooks';
+
+const v = debounceRef('');
+</script>
 
 <style scoped lang="less">
 .logo {

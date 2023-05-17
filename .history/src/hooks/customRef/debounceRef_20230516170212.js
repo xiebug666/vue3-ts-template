@@ -1,2 +1,0 @@
-import { customR}
-export default 
